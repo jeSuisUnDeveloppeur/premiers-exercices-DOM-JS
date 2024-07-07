@@ -1,0 +1,17 @@
+body>div button.btn.btn-primary{
+   width: 15%; 
+}
+
+.weightRed{
+    font-weight: bold;
+    color:rgb(247, 54, 54);
+    font-size: 1.8em;
+    background-color: antiquewhite;
+}
+
+.weightGreen{
+    font-weight: bold;
+    color:rgb(1, 235, 21);
+    font-size: 1.4em;
+    background-color: antiquewhite;
+}

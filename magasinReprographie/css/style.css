@@ -1,0 +1,32 @@
+body > main > section > div{
+    background-color: #dbd5d5;
+}
+
+body > header > nav > div > a{
+    background-color: rgba(34, 238, 34, 0.822);
+}
+
+#navbarSupportedContent > ul > li > a{
+    background-color: rgba(34, 238, 34, 0.822);
+}
+
+h1{
+   background-color: rgba(34, 238, 34, 0.822); 
+}
+
+body > main > section > div > button{
+    background-color:#dbd5d5!important;
+    color: black!important;
+    margin-left: 15%;
+}
+
+body > main > section > div > button:hover{
+    transition: 0.6s;
+    background-color: rgb(45, 216, 45)!important;
+    color:white!important;
+}
+
+.messageVert{
+    color:rgb(15, 163, 15);
+    font-size: 1.3em;
+}

@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "gothica";
+  src: url("../fonts/Horst\ Blackletter\ Demo.ttf");
+}
+
+@font-face {
+  font-family: "vampyre";
+  src: url("../fonts/WrathStyles.ttf");
+}
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/bg.jpg"); 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(20%);
+  z-index: -1; 
+}
+
+.background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  filter: brightness(30%);
+  background-image: url("../../../project/jeuxDuPendu/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  height: 100vmax;
+  padding: 5%;
+}
+
+h1 {
+  font-family: "gothica";
+  font-size: 5rem;
+  color: red;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-inline: auto; 
+}
+
+button {
+  width: 15%;
+  height: 40px;
+  background-color: rgba(27, 26, 26, 0.705);
+  color: red;
+}
+
+button.hover:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: red;
+  color: white;
+}
+
+.container-img {
+  width: 100%;
+  margin-inline: auto;
+}
+
+img {
+  object-fit: cover;
+  margin-inline: auto;
+  width: 100%;
+  height: auto; 
+}
+
+p {
+  color: rgba(255, 0, 0, 0.623);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+.messageTentative {
+  margin-bottom: 10px;
+  color: rgba(255, 0, 0, 0.493);
+}
+
+.container-mot-cache {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 5%;
+  flex-wrap: wrap; 
+}
+
+
+.motCache {
+  width: 7%;
+  display: inline;
+  color: white;
+  font-size: 2rem;
+  margin: none;
+}
+
+.message {
+  color: red;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: "vampyre";
+  text-align: center;
+  margin-top: 30px;
+}
+
+.rejouer {
+  display: none;
+  width: 100px;
+  border-radius: 0.8rem;
+  margin:20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
